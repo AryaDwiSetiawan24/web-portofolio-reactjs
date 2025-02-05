@@ -38,7 +38,7 @@ const Service = () => {
           <span>Laravel</span>
           <span>ReactJS</span>
           <span>Tailwind</span>
-          <span>GoLang</span>
+          <span>IoT</span>
         </div>
       </div>
     </section>

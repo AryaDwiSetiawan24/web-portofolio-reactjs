@@ -27,8 +27,11 @@
 
 .aboutButton {
     color: var(--text-color);
+    position: relative;
+    display: flex;
     text-decoration: underline;
     font-weight: bold;
+    top: 1rem;
 }
 
 /* breakpoints */
@@ -38,11 +41,13 @@
 
 @media screen and (max-width: 576px) {
     .aboutTypo {
-    line-height: 3rem;
-    font-size: 4rem;
+        line-height: 3rem;
+        font-size: 4rem;
     }
+
     .aboutContent {
         width: 80%;
+        line-height: 1.4rem;
     }
 }
 

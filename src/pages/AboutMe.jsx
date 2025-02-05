@@ -1,16 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LoaderMe from "../components/pageAboutMe/LoaderMe/LoaderMe";
+import LoaderMe from "../components/pageAboutMe/loaderAbout/LoaderMe";
+import HeroAbout from "../components/pageAboutMe/heroAbout/heroAbout";
 
 const AboutMe = () => {
   return (
-    <>
+    <div>
       <LoaderMe />
-      <h1>Ini adalah halaman about me/more info/contact</h1>
-      <div className="btnBack">
-        <Link to="/">Back to Home</Link>
-      </div>
-    </>
+      <HeroAbout />
+    </div>
   );
 };
 

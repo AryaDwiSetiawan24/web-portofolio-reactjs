@@ -1,6 +1,7 @@
 import React from "react";
 import "./work.css";
 import Picture from "../../../assets/a_raccoon.png";
+import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
@@ -21,7 +22,7 @@ const Work = () => {
               <span className="workNumber">01.</span>
               <div className="workTitle">
                 <span>Web E-Learning</span>
-                <span>Website dikembangkan dengan framework Laravel 11 dan library css seperti tailwind. Website dikembangkan dengan framework Laravel 11 dan library css seperti tailwind. Website dikembangkan dengan framework Laravel 11 dan library css seperti tailwind.</span>
+                <span>Website</span>
               </div>
             </div>
           </div>
@@ -66,46 +67,62 @@ const Work = () => {
           </div>
         </div> */}
 
-        {/* styleable WPU */}
-        <div class="course">
+        {/* styleable CSS */}
+        <div className="course">
           <section>
-            <details name="wpucourse" open>
+            <details name="myproject" open>
               <summary>
                 <span>1</span>
               </summary>
               <div class="details-content-wrapper">
-                <h4>Web E-learning</h4>
+                <h4>Website E-learning</h4>
                 <p>
-                  Website dibuat dengan framework Laravel 11 dan library CSS seperti tailwind.
+                  Website E-learning dibuat dengan framework Laravel 11 dan
+                  library CSS seperti tailwind.
                 </p>
                 <img className="accordion-image" src={Picture} />
+                <a
+                  className="workLinked"
+                  href="https://github.com/AryaDwiSetiawan24/Projek_RPL_E-learning.git"
+                  target="_blank"
+                >
+                  <i class="uil uil-arrow-up-left"></i> View Project
+                </a>
               </div>
             </details>
 
-            <details name="wpucourse">
+            <details name="myproject">
               <summary>
                 <span>2</span>
               </summary>
               <div class="details-content-wrapper">
-                <h4>Aplikasi Weather Forcast</h4>
+                <h4>CuacaApp</h4>
                 <p>
-                  Aplikasi dapat menampilkan cuaca terkini berdasarkan lokasi yang diinputkan.
+                  Aplikasi dapat menampilkan cuaca terkini berdasarkan lokasi
+                  yang diinputkan.
                 </p>
                 <img className="accordion-image" src={Picture} />
-                </div>
+                <a className="workLinked" href="#">
+                  <i class="uil uil-arrow-up-left"></i> View Project
+                </a>
+              </div>
             </details>
 
-            <details name="wpucourse">
+            <details name="myproject">
               <summary>
                 <span>3</span>
               </summary>
-              <div class="details-content-wrapper">
-                <h4>Prototype Aplikasi Kursus Bahasa</h4>
+              <div className="details-content-wrapper">
+                <h4>Lingua</h4>
                 <p>
-                  Aplikasi ini dibuat dengan menggunakan figma dan prototipe aplikasi kursus bahasa.
+                  Aplikasi ini dibuat dengan menggunakan figma dan prototipe
+                  aplikasi kursus bahasa.
                 </p>
                 <img className="accordion-image" src={Picture} />
-                </div>
+                <a className="workLinked" href="#">
+                  <i class="uil uil-arrow-up-left"></i> View Project
+                </a>
+              </div>
             </details>
           </section>
         </div>
