@@ -1,7 +1,10 @@
 import React from "react";
 import "./work.css";
+
 import Picture from "../../../assets/a_raccoon.png";
-import { Link } from "react-router-dom";
+import elearning from "../../../assets/elearning-naga.png";
+import cuaca from "../../../assets/cuaca-app.jpg";
+import lingua from "../../../assets/lingua.jpg";
 
 const Work = () => {
   return (
@@ -80,7 +83,9 @@ const Work = () => {
                   Website E-learning dibuat dengan framework Laravel 11 dan
                   library CSS seperti tailwind.
                 </p>
-                <img className="accordion-image" src={Picture} />
+                <div className="accordion-container">
+                  <img className="accordion-image" src={elearning} />
+                </div>
                 <a
                   className="workLinked"
                   href="https://github.com/AryaDwiSetiawan24/Projek_RPL_E-learning.git"
@@ -101,8 +106,14 @@ const Work = () => {
                   Aplikasi dapat menampilkan cuaca terkini berdasarkan lokasi
                   yang diinputkan.
                 </p>
-                <img className="accordion-image" src={Picture} />
-                <a className="workLinked" href="#">
+                <div className="accordion-container">
+                  <img className="accordion-image" src={cuaca} />
+                </div>
+                <a
+                  className="workLinked"
+                  href="https://drive.google.com/file/d/10lEvgdFiE20KppyTHH8WsPZAsHzyK-uW/view?usp=sharing"
+                  target="_blank"
+                >
                   <i class="uil uil-arrow-up-left"></i> View Project
                 </a>
               </div>
@@ -118,8 +129,14 @@ const Work = () => {
                   Aplikasi ini dibuat dengan menggunakan figma dan prototipe
                   aplikasi kursus bahasa.
                 </p>
-                <img className="accordion-image" src={Picture} />
-                <a className="workLinked" href="#">
+                <div className="accordion-container">
+                  <img className="accordion-image" src={lingua} />
+                </div>
+                <a
+                  className="workLinked"
+                  href="https://drive.google.com/file/d/1tgLank7VUq8gzO3pUqljP-PK0te1OxCW/view?usp=sharing"
+                  target="_blank"
+                >
                   <i class="uil uil-arrow-up-left"></i> View Project
                 </a>
               </div>

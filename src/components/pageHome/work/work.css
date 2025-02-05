@@ -119,6 +119,7 @@
   }
 
   details {
+    position: relative;
     display: flex;
     flex-direction: row;
     background: #d2d2d286;
@@ -162,8 +163,10 @@
 }
 
 .details-content-wrapper {
+  position: relative;
   padding: 1.5rem 1em;
   width: min(30vw, 600px);
+  height: 33rem;
 
   p {
     font-size: .9em;
@@ -209,11 +212,22 @@
   width: min(30vw, 600px);
 }
 
+.accordion-container {
+  display: flex;
+  height: 70%;
+  width: 100%;
+  overflow: hidden;
+}
+
 .accordion-image {
-  max-width: 80%;
-  height: auto;
+  position: relative;
+  object-fit: contain;
+  left: -10%;
+  height: 100%;
+  width: 100%;
   transition: all 0.5s ease;
 }
+
 
 .accordion-image:hover {
   transform: translateY(-7px);

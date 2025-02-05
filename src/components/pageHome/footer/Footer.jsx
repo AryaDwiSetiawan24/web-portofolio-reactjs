@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
-import Picture from "../../../assets/a_raccoon.png";
+import Picture from "../../../assets/foto-pantai.jpg";
 import "./footer.css";
 
 const Footer = () => {
