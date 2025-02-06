@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -18,9 +19,9 @@ const About = () => {
         hal-hal baru dan mengimplementasikan pengetahuan yang saya miliki dalam
         project-project yang saya kerjakan.
         <br />
-        <a className="aboutButton" href="/about-me">
+        <Link className="aboutButton" to="/about-me">
           Read More About Me <i class="uil uil-arrow-up-right"></i>
-        </a>
+        </Link>
       </div>
     </section>
   );

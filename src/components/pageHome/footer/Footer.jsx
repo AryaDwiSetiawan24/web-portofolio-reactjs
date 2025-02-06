@@ -25,7 +25,6 @@ const Footer = () => {
         <span>Come Join Us!</span>
       </div>
       <div className="footerLink">
-        {/* <a href="mailto:aryadwis24@gmail.com?cc=&bcc=&subject=&body=" target="_blank">Email me</a> */}
         <CopyToClipboard text={email} onCopy={handleCopy}>
           <a className="copy-email">Email me</a>
         </CopyToClipboard>
